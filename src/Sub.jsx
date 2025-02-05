@@ -8,7 +8,7 @@ const Sub = () => {
   return (
     <div>
       Sub
-      <p>{count}</p>
+      <p>From App count = {count}</p>
       <button onClick={() => setCount(count+1)}>プラス</button>|
       <button onClick={() => setCount(count-1)}>マイナス</button>
     </div>
